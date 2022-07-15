@@ -4,16 +4,16 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .colorful-name {
     color: rgb(233, 111, 41);
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -45,4 +45,33 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: bottom;
+}
+
+.buttom-part {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.experience-zone {
+    width: 50%;
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 15px 15px 50px grey;
+    border-radius: 15px;
+}
+
+#full-stack-developer {
+    border-left: 10px solid rgb(255, 83, 83);
+}
+
+#junior-web-developer {
+    border-left: 10px solid rgb(83, 100, 255);
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 10px;
+
 }
